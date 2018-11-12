@@ -1,0 +1,23 @@
+%run attr_define_with_order.py ../data/coco/dataset_coco.json ../data/pascal/pascal_5S.json
+Finished counting words.
+Successfully defined attributes
+Some images have no labels.
+27.0
+9.78760128805
+Files wrtten in hdf5!!
+23.0
+8.951
+All images have labels.
+Files wrtten in hdf5!!
+
+%run attr_define_with_order.py ../data/coco/dataset_coco.json ../data/pascal/pascal_5S.json --keep_stopwords --max_len 40
+Finished counting words.
+Successfully defined attributes
+40.0
+19.3106978027
+All images have labels.
+Files wrtten in hdf5!!
+34.0
+17.185
+All images have labels.
+Files wrtten in hdf5!!
